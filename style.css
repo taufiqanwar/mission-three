@@ -1,6 +1,25 @@
-
+* {
+    padding: 0;
+    margin: 0;
+}
 
 
 body{
     font-family: bebas;
+    background: url(IMAGE/background.jpg);
+    width: 100px;
+    background-size: 100%;
+    padding: auto;
+}
+
+.container{
+    background-color: #a22020;
+    background-size: 800px;
+    padding: 200px;
+    border-radius: 15px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
