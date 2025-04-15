@@ -1,24 +1,26 @@
-@font-face {
-    font-family: 'lato';
-    src: url(FONTS/lato-regular-webfont.woff) format(.woff);
-
-}
-
-
 body {
     font: 18px/36px 'lato';
     background: url(IMAGE/background.jpg);
-    width: 100px;
+    width: 100vh;
     height: 100vh;
     background-size: 100%;
-    background-color: #ffff;
     margin: auto;
+    box-sizing: border-box;
 }
 
 .logo-chill {
-    background-color: aqua;
-    margin: 0px 10px;
-    padding: 20px 50px;
+    margin-top: 10px;
+    margin: auto;
+    padding: 0;
+    font-family: url(FONTS/londrinasolid-black-webfont.woff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chil {
+    padding: 10px 20px;
+    display: inline-block;
 }
 
 .container {
@@ -26,17 +28,25 @@ body {
     background-size: 800px;
     padding: 210px;
     border-radius: 15px;
-    margin: 20px 500px;
-
+    margin: 100px auto;
     opacity: 80%;
+    box-sizing: border-box;
 }
 
-.container img {}
+.h3 {
+    color: #ffff;
+    text-align: center;
+
+}
+
+.h2 {}
 
 .chil {
     display: inline-block;
+    color: #ffff;
     font-size: 28px;
     background-color: #ffff;
+    padding: 2px;
 }
 
 .login-colom {
