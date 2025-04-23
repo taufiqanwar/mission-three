@@ -1,171 +1,158 @@
-*/ {
-    margin: 0;
+* {
     padding: 0;
-}
-
-body {
-    font: 18px/36px 'lato';
-    background: url(IMAGE/background.jpg);
-    width: 100vh;
-    height: 100vh;
-    background-size: 100%;
-    margin: auto;
+    margin: 0;
     box-sizing: border-box;
-}
 
-.container {
-    background-color: black;
-
-    height: 663px;
-    width: 529px;
-    background-size: 800px;
-    padding-top: 10px;
-    border-radius: 15px;
-    margin: auto;
-    margin-top: 30px;
-    opacity: 80%;
-    box-sizing: border-box;
 }
 
 .logo-chill {
-    margin-top: 10px;
-    margin: auto;
-    padding: 0;
+    height: 0;
+    width: 529;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 50px;
+    margin: auto;
+    color: white;
+}
+
+.container .logo-chill .chil {
+    margin-left: 30px;
+    background-color: black;
+    font-size: 36px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 181px 455px;
+    background: url(IMAGE/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    height: 600px;
+    width: 450px;
+    margin-top: 181px;
+    margin-bottom: 181px;
+    box-sizing: border-box;
+    background-color: black;
 }
 
 
-h3 {
-    margin: auto;
-    color: #ffff;
-    font-size: 32px;
-    width: 0px;
-    height: 25px;
-    text-align: center;
+.container h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px bold white;
+    color: white;
+    margin: auto;
+}
+
+.container .Masuk h3 {
+    font-size: 30px;
+    color: white;
+}
+
+.belum-Punya-Akun {
+    color: white;
+}
+
+.belum-Punya-Akun a {
+    color: white;
 }
 
 h5 {
-    color: #ffff;
+    color: white;
     margin: auto;
-    font-size: 16px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.chil {
-    display: inline-block;
-    color: #ffff;
-    font-size: 50px;
-    padding: 2px;
-    border: 2px white;
-    margin-left: 30px;
-    margin-right: 30px;
-    font-family: ;
-
-}
-
-.login-colom {
-    background-color: ;
-    color: #ffff;
-    height: 81px;
-    width: 449px;
-    margin: auto;
-    padding-right: 100px;
-    border-radius: 30px;
-    border-color: #ffff;
-    border-width: 10px;
-    padding-left: 10px;
-    box-sizing: border-box;
-
-}
-
-.login-colom .masukkan-user-name {
-    width: 400px;
-    height: 30px;
-    padding: 3px;
-    border: 1px solid white;
-    border-radius: 50px;
-    margin: auto;
-}
-
-.pasword-colom {
-    background-color: ;
-    color: #ffff;
-    height: 81px;
-    width: 449px;
-    margin: auto;
-    padding-right: 100px;
-    border-radius: 30px;
-    border-color: #ffff;
-    border-width: 10px;
-    padding-left: 10px;
-    box-sizing: border-box;
-
-}
-
-.masukkan-pasword {
-    width: 400px;
-    height: 30px;
-    padding: 3px;
-    border: 1px solid white;
-    border-radius: 50px;
-    margin: auto;
-    display: flex;
-    align-items: stretch;
-    justify-content: space-around;
-}
-
-.masukkan-pasword img {
-    height: 50%;
-    width: ;
-}
-
-.belum-punya-akun {
-    width: 100px;
-    height: 200px;
-    background-color: red;
-}
-
-.masuk {
-    width: 300px;
-    height: 30px;
-    background-color: #7b7979;
-    margin: auto;
-    margin-top: 40px;
+    padding: 0;
+    width: auto;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 50px;
 }
 
-.atau{
+.container .belum-Punya-Akun {
     display: flex;
-    align-items: ;
-    justify-content: center;
-    width: 300px;
-
-}
-
-.masuk-dengan-google {
-    width: 400px;
-    height: 30px;
-    background-color: black;
-    margin: auto;
-    border: 2px solid white;
-    margin-top: 40px;
-    display: flex;
-    padding: 30px;
     align-items: center;
     justify-content: space-between;
-    border-radius: 50px;
-    box-sizing: border-box;
+    margin: auto;
+    padding-top: 80px;
+}
 
+.container p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.belum-Punya-Akun{
+    width: 75%;
+    height: 50px;
+    margin: auto;
+    
+}
+
+button {
+    width: 300px;
+    height: 45px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    background: none;
+    border: none;
+    outline: none;
+    border: 2px solid white;
+    border-radius: 40px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.login {
+    /* position: absolute; */
+    width: 100%;
+    height: 70px;
+    margin: auto;
+
+}
+
+p {
+    color: white;
+}
+
+form img{
+    width: 20px;
+    height: 20px;
+    margin: 20px 20px;
+}
+
+.button {
+    margin: auto;
+    padding: 50px;
+}
+
+.button p{
+    margin: auto;
+    padding: 20px 0px;
+}
+
+.btn {
+    opacity: .3;
 }
