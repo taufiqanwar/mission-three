@@ -2,24 +2,26 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 .logo-chill {
-    height: 0;
-    width: 529;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
     margin: auto;
+    padding-top: 50px;
     color: white;
 }
 
+.logo{
+    width: 60px;
+    height: 50px;
+}
+
 .container .logo-chill .chil {
-    margin-left: 30px;
-    background-color: black;
-    font-size: 36px;
+    font-size: 5em;
+    font-family: "Londrina Solid", sans-serif;
+    font-style: normal;
 }
 
 body {
@@ -39,9 +41,11 @@ body {
     margin-top: 181px;
     margin-bottom: 181px;
     box-sizing: border-box;
-    background-color: black;
+    background-color: rgba(0, 0, 0, .5);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
-
 
 .container h3 {
     display: flex;
@@ -89,11 +93,11 @@ h5 {
     justify-content: center;
 }
 
-.belum-Punya-Akun{
+.belum-Punya-Akun {
     width: 75%;
     height: 50px;
     margin: auto;
-    
+
 }
 
 button {
@@ -137,7 +141,7 @@ p {
     color: white;
 }
 
-form img{
+form img {
     width: 20px;
     height: 20px;
     margin: 20px 20px;
@@ -148,11 +152,19 @@ form img{
     padding: 50px;
 }
 
-.button p{
+.button p {
     margin: auto;
     padding: 20px 0px;
 }
 
 .btn {
     opacity: .3;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
