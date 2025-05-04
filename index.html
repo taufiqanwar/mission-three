@@ -6,42 +6,40 @@
     <meta name="viewport" content="width=h1, initial-scale=1.0">
     <title>Chill Movie</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Londrina+Solid:wght@100;300;400;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/IMAGE/Vector.png" type="image/x-icon">
 </head>
 
 <body>
-    <form class="container">
-        <div class="logo-chill">
-            <img class="logo" src="IMAGE/Vector.png">
+    <main class="container">
+        <div class="Logo">
+            <img src="IMAGE/Vector.png" alt="Chill" />
             <h1 class="chil">Chill</h1>
         </div>
         <div class="Masuk">
-            <h3>Masuk</h3>
-            <h5>Selamat datang kembali</h5>
+            <h3 class="title">Masuk</h3>
+            <p>Selamat datang kembali!</p>
         </div>
-        <br>
-        <div class="login">
-            <p>Username</p>
-            <input type="text" placeholder="Masukkan Username" required>
-            <br>
-            <p>Kata Sandi</p>
-            <input type="password" placeholder="password" required>
-        </div>
+        <form class="Inputan">
+            <label for="UserName">Username</label>
+            <input type="text" placeholder="Masukkan Username" name="Username" id="UserName" />
+            <label for="Password">Password</label>
+            <input type="Password" placeholder="Masukkan Pasword" name="Password" id="Password">
+            
+
+        </form>
         <div class="belum-Punya-Akun">
             <p>Belum Punya Akun?<a href="registerpage.html">Daftar</a></p>
-            <br>
             <a href="registerpage.html">Lupa Kata Sandi?</a>
         </div>
 
         <div class="button">
-            <button type="submit" class="btn">Masuk</button>
-            <p>atau</p>
-            <button type="submit" class="login-with"><img src="IMAGE/2991148 1.png" alt="">Masuk Dengan
-                Google</button>
+            <a href=""><button type="submit" class="btn">Masuk</button></a>
+            <p class="atau">atau</p>
+            <a href=""><button type="button" class="login-with"><img class="googleLogo" src="IMAGE/2991148 1.png" alt="">Masuk Dengan
+                    Google</button></a>
         </div>
-    </form>
+
+    </main>
 </body>
+
 </html>
