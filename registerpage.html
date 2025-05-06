@@ -5,45 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=h1, initial-scale=1.0">
     <title>Chill Movie</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styleRegister.css">
+    <link rel="shortcut icon" href="/IMAGE/Vector.png" type="image/x-icon">
 </head>
 
 <body>
-    <div class="container">
-        <div class="logo-chill">
-            <img class="logo" src="IMAGE/Vector.png">
+    <main class="container">
+        <div class="Logo">
+            <img src="IMAGE/Vector.png" alt="Chill" />
             <h1 class="chil">Chill</h1>
         </div>
         <div class="Masuk">
-            <h3>Masuk</h3>
-            <h5>Selamat datang kembali</h5>
+            <h3 class="title">Daftar</h3>
+            <p>Selamat datang kembali!</p>
         </div>
-        <br>
-        <div class="login">
-            <p>Username</p>
-            <input type="text" placeholder="Masukkan Username" required>
-            <br>
-            <p>Kata Sandi</p>
-            <input type="password" placeholder="password" required>
-        </div>
+        <form class="Inputan">
+            <label for="UserName">Username</label>
+            <input type="text" placeholder="Masukkan Username" name="Username" id="UserName" />
+            <label for="Password">Kata Sandi</label>
+            <input type="Password" placeholder="Masukkan Pasword" name="Password" id="Password">
+            <label for="Password">Konfirmasi Kata Sandi</label>
+            <input type="Password" placeholder="Masukkan Pasword" name="Password" id="Password">
+
+        </form>
         <div class="belum-Punya-Akun">
-            <p>Belum Punya Akun?<a href="indax.html">Daftar</a></p>
-            <br>
-            <a href="indax.html">Lupa Kata Sandi?</a>
+            <p>Sudah Punya Akun?<a href="index.html">Masuk</a></p>
         </div>
 
         <div class="button">
-            <button type="submit" class="btn">Masuk</button>
-            <p>atau</p>
-            <button type="submit" class="login-with"><img src="IMAGE/2991148 1.png" alt="">Masuk Dengan
-                Google</button>
+            <a href="home.html"><button type="submit" class="btn">Daftar</button></a>
+            <p class="atau">atau</p>
+            <a href=""><button type="button" class="login-with"><img class="googleLogo" src="IMAGE/2991148 1.png" alt="">Daftar dengan
+                    Google</button></a>
         </div>
 
-
-
-    </div>
-
+    </main>
 </body>
 
 </html>

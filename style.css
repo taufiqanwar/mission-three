@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Londrina+Solid:wght@100;300;400;900&display=swap');
 
+
+
 * {
     margin: 0;
     padding: 0;
@@ -16,11 +18,12 @@ body {
 }
 
 .container {
-    background-color: red;
-    /* background-color: rgba(0, 0, 0, .6); */
+    background-color: rgba(0, 0, 0, .6);
     font-family: "Lato", sans-serif;
     font-weight: 16px;
     font-style: normal;
+    max-width: 200em;
+    max-height: 400em;
     padding: 3vmax 2vmax;
     color: white;
     display: flex;
@@ -38,14 +41,14 @@ body {
 }
 
 .Logo img {
-    width: 10vmax;
+    width: 10vmin;
 
 }
 
 .chil {
     font-family: "Londrina Solid", sans-serif;
     font-weight: 4em;
-    font-size: 9vmax;
+    font-size: 9vmin;
     font-style: normal;
     margin: 1rem;
 }
@@ -59,7 +62,7 @@ body {
 }
 
 .Inputan {
-    width: 40vmax;
+    width: 85vmin;
     display: flex;
     flex-direction: column;
     gap: .5em;
@@ -68,7 +71,7 @@ body {
 }
 
 .Inputan input {
-    max-width: 90vmax;
+    max-width: 90vmin;
     min-height: 1em;
     background-color: transparent;
     border: 2px solid #f8f7f795;
@@ -82,10 +85,10 @@ body {
 .belum-Punya-Akun {
     font-family: Lato;
     font-size: 1rem;
-    text-align: center;
+    min-width: 85vmin;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: end;
+    justify-content: space-between;
     gap: 1em;
     margin-bottom: 2em;
 
@@ -97,6 +100,7 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 900;
     font-style: normal;
+
 }
 
 .belum-Punya-Akun a:hover {
@@ -104,7 +108,7 @@ body {
 }
 
 button {
-    width: 40vmax;
+    width: 85vmin;
     height: 3em;
     border-radius: 24px;
     gap: 1em;
@@ -139,6 +143,10 @@ button {
     cursor: pointer;
 }
 
+.button a{
+    text-decoration: none;
+}
+
 .button .btn:hover {
     cursor: pointer;
     color: black;
@@ -146,135 +154,45 @@ button {
 }
 
 
-
-/* media query */
-
-@media (max-width:2200px){
-    .container {
-        font-family: "Lato", sans-serif;
-        font-weight: 16px;
-        font-style: normal;
-        padding: 2vmax 1vmax;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        box-sizing: border-box;
-        margin: auto;
-    }
-    
-    .container .Logo {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .Logo img {
-        width: 2.5em;
-    
-    }
-    
+@Media (min-width:768px) {
     .chil {
-        font-family: "Londrina Solid", sans-serif;
-        font-weight: 2em;
-        font-size: 4vmax;
-        font-style: normal;
-        margin: 1rem;
+        font-size: 69px;
     }
-    
-    .Masuk {
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+
+    .Logo img {
+        width: 60px;
+
     }
-    
-    .Inputan {
-        width: 25vmax;
-        display: flex;
-        flex-direction: column;
-        gap: .5em;
-        margin: auto;
-        padding-top: .5em;
+
+    .container {
+        max-width: 500px;
+        max-height: 700px;
+        
     }
-    
-    .Inputan input {
-        max-width: 90vmax;
-        min-height: 1em;
-        background-color: transparent;
-        border: 2px solid #f8f7f795;
-        color: white;
-        border-radius: 2em;
-        display: flex;
-        padding: 1em;
-        margin-bottom: 1em;
+
+    .Inputan{
+        width: 450px;
+        margin: 0px;
     }
-    
-    .belum-Punya-Akun {
-        font-family: Lato;
-        font-size: .5rem;
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 1em;
-        margin-bottom: 2em;
-    
+    .Inputan input{
+       width: 420px;
+       
     }
+.belum-Punya-Akun{
+    min-width: 450px;
     
-    .belum-Punya-Akun a {
-        text-decoration: none;
-        color: white;
-        font-family: "Lato", sans-serif;
-        font-weight: 900;
-        font-style: normal;
-    }
-    
-    .belum-Punya-Akun a:hover {
-        text-decoration: underline;
-    }
-    
-    button {
-        width: 25vmax;
-        height: 3em;
-        border-radius: 24px;
-        gap: 1em;
-        padding: 1em 2em;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: rgba(231, 227, 252);
-    }
-    
-    .button .googleLogo {
-        width: 18px;
-        height: 18px;
-    }
-    
-    .button p {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: auto;
-        padding: 1em;
-    }
-    
-    .button .login-with {
-        background-color: black;
-        color: white;
-    }
-    
-    .button .login-with:hover {
-        background-color: white;
-        color: black;
-        cursor: pointer;
-    }
-    
-    .button .btn:hover {
-        cursor: pointer;
-        color: black;
-        background-color: white;
-    }
+}
+
+.button{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button button{
+    width: 450px;
+}
+
 }
