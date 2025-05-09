@@ -6,37 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chill Movie</title>
     <link rel="shortcut icon" href="IMAGE/Vector.png" type="image/x-icon">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="styleRegister.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <div>
+            <div class="Logo">
                 <img src="IMAGE/Vector.png" alt="">
-                <h3>
-                    Chill
-                </h3>
+                <h1 class="chill">
+                    chill
+                </h1>
             </div>
-            <ul>
-                <li>Series</li>
-                <li>Film</li>
-                <li>Daftar Saya</li>
+            <ul class="navbar">
+                <li><a href="#">Series</a></li>
+                <li><a href="#">Film</a></li>
+                <li><a href="#">Daftar Saya</a></li>
             </ul>
+            <div class="profile">
+                <div class="avatar">
+                    <div>
+                        <img src="IMAGE/AVATAR.png" alt="Profil">
+                    </div>
 
-            <div>
-                <div><img src="IMAGE/AVATAR.png" alt="">
-                    <img src="IMAGE/DOWNARROW.png" alt="">
                 </div>
+                <a href=""><img src="IMAGE/DOWNARROW.png" alt="Klick" id="arrow"></a>
             </div>
+            <div id="toggle-nav">
+                <a href="#"><img src="IMAGE/profil icon.png" alt="Profil">Profil</a>
+                <a href="#"><img src="IMAGE/star icon.png" alt="">Ubah Premium</a>
+                <a href="#"><img src="IMAGE/log out icon.png" alt="Profil">Keluar</a>
+            </div>
+
         </nav>
 
         <main>
+            <img src="MOVIE/LANDSCAPE/MAIN IMAGE.png" alt="" class="mainImage">
+            <section class="scrollImage">
+                <a href="#"><img src="MOVIE/LANDSCAPE/DONT LOOK UP.png" alt=""></a>
+                <a href="#"><img src="MOVIE/LANDSCAPE/THE END OF US LANSCAPE.png" alt=""></a>
+                <a href="#"><img src="MOVIE/LANDSCAPE/BLUE LOCK.png" alt=""></a>
+                <a href="#"><img src="MOVIE/LANDSCAPE/OTTO.png" alt=""></a>
+            </section>
+            <article>
+
+            </article>
 
         </main>
     </header>
 
-
+<script src="script.js"></script>
 </body>
 
 </html>
