@@ -5,7 +5,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border;
+    box-sizing: border-box;
 }
 
 body {
@@ -87,6 +87,64 @@ nav ul li a {
 
 .profile #arrow {
     width: 30px;
+}
+
+.informasi {
+    width: min(1rem, cal(), );
+    height: auto;
+    /* background-color: red; */
+    padding: .5rem;
+    margin: .5rem;
+    position: relative;
+    top: -4rem;
+}
+
+.informasi .navigasiLabel {
+    width: 80vw;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.informasi h2{
+font-size: ;
+background-color: red;
+
+}
+
+.informasi .navigasiLabel button:nth-child(1) {
+    color: white;
+    width: 20rem;
+    height: 3rem;
+    margin: 3rem;
+    padding: 0 4rem;
+    border-radius: .5rem;
+    background-color: blue;
+}
+
+.informasi .navigasiLabel button:nth-child(2){
+width: 20rem;
+height: 3rem;
+box-sizing: border-box;
+margin: 1rem;
+padding: 1rem;
+border-radius: 1rem;
+border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 2rem;
+}
+
+.informasi .navigasiLabel button:nth-child(2) img {
+    width: 2rem;
+}
+
+.informasi h2 {
+    font-size: 2rem;
+    color: white;
+    font-weight: 1rem;
+
 }
 
 main {
